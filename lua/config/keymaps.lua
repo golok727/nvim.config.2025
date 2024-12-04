@@ -20,4 +20,6 @@ keymap.set("n", "<C-w><down>", "<C-w>-")
 
 keymap.set("n", "<tab>", ":bnext<CR>", opts)
 keymap.set("n", "<S-tab>", ":bprev<CR>", opts)
-keymap.set("n", "<A-q>", "<Space>bd", opts)
+keymap.set("n", "<A-q>", function()
+  Snacks.bufdelete()
+end)
