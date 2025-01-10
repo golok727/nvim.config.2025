@@ -30,4 +30,9 @@ return {
       })
     end,
   },
+  {
+    "echasnovski/mini.surround",
+    version = "*",
+    opts = {},
+  },
 }
