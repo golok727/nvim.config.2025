@@ -1,5 +1,11 @@
 return {
   {
+    "folke/snacks.nvim",
+    opts = {
+      scroll = { enabled = false },
+    },
+  },
+  {
     "hrsh7th/nvim-cmp",
     opts = function(_, opts)
       local cmp = require("cmp")
